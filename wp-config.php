@@ -20,12 +20,15 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+//define( 'DB_NAME', 'ojnplymy_lhfsch4ll3' );
 define( 'DB_NAME', 'lh_fs_challenge' );
 
 /** Database username */
+//define( 'DB_USER', 'ojnplymy_us3rfsch4ll3' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
+//define( 'DB_PASSWORD', '8TM3H*DHiL)i' );
 define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
@@ -91,6 +94,9 @@ define( 'WP_DEBUG', true );
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
+
+/** Sets up WordPress vars and included files. */
+require_once ABSPATH . 'wp-settings.php';
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';

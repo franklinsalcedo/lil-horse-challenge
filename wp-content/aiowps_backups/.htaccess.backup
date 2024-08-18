@@ -15,4 +15,3 @@ RewriteRule . /lil-horse-challenge/index.php [L]
 </IfModule>
 
 # END WordPress
-
