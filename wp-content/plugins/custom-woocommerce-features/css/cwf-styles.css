@@ -1,0 +1,49 @@
+.cwf-container {
+  background: #F5F5F5;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+.cwf-container p {
+  margin: 0 0 10px 0;
+}
+.cwf-bar {
+  font-weight: bold;
+  background: #dee3ed;
+  margin-bottom: 15px;
+  border: 1px solid #94b0e9;
+  border-radius: 5px;
+  position: relative;
+}
+.cwf-percent {
+  color: #FFF;
+  background: #7791c6;
+  text-align: right;
+  padding: 5px;
+  box-sizing: border-box;
+} 
+.cwf-goal-amount {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.cwf-button {
+  color: #FFF;
+  background: #7791c6;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100px;
+  margin: 5px auto;
+  padding: 5px;
+  border: 1px solid #94b0e9;
+  border-radius: 5px;
+  display: block;
+  transition: 0.5s;
+}
+.cwf-button:hover {
+  color: #000;
+  background: #dee3ed;
+}

@@ -204,3 +204,14 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+
+/** Custom Note on Checkout - By WooAssist  **/
+
+add_action('woocommerce_review_order_before_payment','wooassist_custom_note');
+
+function wooassist_custom_note() {
+
+echo 'Add custom note here'; //You put your own note here between the  
+
+}
