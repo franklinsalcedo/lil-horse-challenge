@@ -1,4 +1,5 @@
 .cwf-container {
+  color: #000;
   background: #F5F5F5;
   font-size: 14px;
   margin-bottom: 20px;
@@ -23,6 +24,9 @@
   text-align: right;
   padding: 5px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+  transition: 0.8s;
 } 
 .cwf-goal-amount {
   position: absolute;
@@ -34,7 +38,7 @@
   background: #7791c6;
   text-align: center;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none!important;
   width: 100px;
   margin: 5px auto;
   padding: 5px;
@@ -46,4 +50,7 @@
 .cwf-button:hover {
   color: #000;
   background: #dee3ed;
+}
+.cwf-hide {
+  display: none;
 }
