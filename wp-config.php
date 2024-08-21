@@ -20,15 +20,12 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-//define( 'DB_NAME', 'ojnplymy_lhfsch4ll3' );
 define( 'DB_NAME', 'lh_fs_challenge' );
 
 /** Database username */
-//define( 'DB_USER', 'ojnplymy_us3rfsch4ll3' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-//define( 'DB_PASSWORD', '8TM3H*DHiL)i' );
 define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
@@ -51,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define('AUTH_KEY',         '^OZS;6|//]l_~h2c[t1d-FS>o0Nn.zGj|8e 31XV|:Ni~QnsC+g&58+_LNjwi.C&');
+define('SECURE_AUTH_KEY',  '0U9q#NGRfTkuE$%qxXoZW]{#`vMwZt8Xgd?q+I{g~=LFe6Vte)&EM.b9~0Ky+v?R');
+define('LOGGED_IN_KEY',    'xC8piKczG@Z9gn*%]4_Q3f-&MWj@bz_sDA:9t-U4 v?8p#KkoyrGz]GsY6q}lS.K');
+define('NONCE_KEY',        'PS1}n9pOXm`PvLM)L0do+Wz8AYK]2 zJ=:ymHJ<,g~8eCW.JC5K|lACg!tI^c}F-');
+define('AUTH_SALT',        'j1OvBT5Ta>C2u?QjfD;<G[7tS:0RPVGOp?K?Ce<9ej=V<-{e|IJVUe{}=pgCh|q_');
+define('SECURE_AUTH_SALT', 'E%JMLTza/#PlvI?!F!-!3Q|+2p7QP;ia&S$@79l|rookGpwa}7~!(w>2WHX>e2r9');
+define('LOGGED_IN_SALT',   '|84m]WG(|6;Qr=xudsDf3la-A+D8Oo@l_OKkIb)dWYGtjEZ<>L&Qqa{[IWhs-4KO');
+define('NONCE_SALT',       'R- }?PM 4SA7Y+iZ>;bYf@|ms:EW51FB )^:ax;uJOg]p4),O*z|*wPcW?axg$s!');
 
 /**#@-*/
 
@@ -82,7 +79,7 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 

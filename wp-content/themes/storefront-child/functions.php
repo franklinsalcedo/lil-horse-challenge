@@ -25,7 +25,7 @@ add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
  */
 
 // Remove related products (default)
-remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 10);
 
 // Add back related products in a different location
 add_action('woocommerce_after_single_product_summary', 'custom_related_products');
